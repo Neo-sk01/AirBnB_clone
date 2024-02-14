@@ -12,6 +12,7 @@ The AirBnB clone project is a multipart series that aims to guide us through the
 - The implementation of the first abstracted storage engine of the project: File Storage.
 - Writing comprehensive unittests to ensure reliability and stability of our application.
 
+
 ## Features 🎉
 
 - **Command Interpreter**: Allows us to manage the AirBnB objects.
@@ -20,6 +21,7 @@ The AirBnB clone project is a multipart series that aims to guide us through the
   - Perform operations on objects (count, compute stats).
   - Update attributes of an object.
   - Destroy an object.
+
 - **Serialization/Deserialization**: Conversion between objects and a JSON file storage system.
 - **File Storage**: Abstracted storage engine to persist objects to a file.
 - **Unittests**: Comprehensive tests to validate all our classes and storage engine.
@@ -30,10 +32,66 @@ The AirBnB clone project is a multipart series that aims to guide us through the
 - **Style guide**: Pycodestyle (2.8.*)
 - **Storage**: JSON files
 
-## Installation and Usage 🔧
+## Available Commands
 
-Clone the repository to your local machine:
+- create
+- show
+- destroy
+- all
+- update
+- quit
+- help
 
-```bash
-git clone https://github.com/your_github_username/your_repository_name.git
+
+## Installation and Usage
+
+
+
+**HOW TO START THE COMMAND INTERPRETER**
+
+**STEP 1**
+
+- Start the command-line Interpreter, go to the directory of the project 
+and run : ./console.py in your terminal
+
+- this will bring the command prompt (hbnb)
+
+ **YOU MAY NOW ENTER COMMANDS**
+
+**STEP 2**
+
+- Creating a new object: to create a new object use the 'create' command a classname 
+
+**STEP 3**
+
+- Showing an object: to display an object, you need a class name and its 'id'
+
+(hbnb) > show User user_id
+
+- replace the "user_id" with the actual 'id' of the User.
+
+**STEP 4**
+
+- Listing all objects
+
+- If you want to list all the users just simply type : (hbnb)> all
+
+**STEP 5**
+
+- Updating objects: here's how to update an objects attribute:
+
+(hbnb) > upadate User user_id email "neosekaleli@gmai.com"
+
+**STEP 6** 
+
+- here is how to destroy a user
+
+(hbnb) destroy User user_id 
+
+**STEP 7** 
+
+- To quit the console 
+
+(hbnb) quit
+
 
