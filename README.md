@@ -4,6 +4,8 @@ Welcome to our rendition of the AirBnB Clone - the console! This project is the 
 
 ## Overview 🌐
 
+![img.png](img.png)
+
 The AirBnB clone project is a multipart series that aims to guide us through the process of creating a complete web application. This first part focuses on the backend, particularly on creating a command-line interface to manage our application's data. The journey will cover:
 
 - The creation of a parent class `BaseModel` to handle initialization, serialization, and deserialization of instances to come.
