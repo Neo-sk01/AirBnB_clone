@@ -17,16 +17,16 @@ The AirBnB clone project is a multipart series that aims to guide us through the
 
 ## Features 🎉
 
-- **Command Interpreter**: Allows us to manage the AirBnB objects.
-  - Create a new object (e.g., User, Place).
-  - Retrieve an object from storage.
-  - Perform operations on objects (count, compute stats).
+   **Command Interpreter**: Allows us to manage the AirBnB objects.
+  - Perform operations on objects (count, compute stats etc...)
+  - Create an object (User, Place).
+  - Retrieve a object from storage.
   - Update attributes of an object.
   - Destroy an object.
 
-- **Serialization/Deserialization**: Conversion between objects and a JSON file storage system.
-- **File Storage**: Abstracted storage engine to persist objects to a file.
-- **Unittests**: Comprehensive tests to validate all our classes and storage engine.
+  **Serialization/Deserialization**: Conversion between objects and a JSON file storage system.
+  **File Storage**: Abstracted storage engine to persist objects to a file.
+  **Unittests**: Comprehensive tests to validate all our classes and storage engine.
 
 ## Technologies Used 🛠️
 
@@ -44,9 +44,7 @@ The AirBnB clone project is a multipart series that aims to guide us through the
 - quit
 - help
 
-
 ## Installation and Usage
-
 
 
 **HOW TO START THE COMMAND INTERPRETER**
