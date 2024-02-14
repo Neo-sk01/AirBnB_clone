@@ -6,11 +6,11 @@ Welcome to our rendition of the AirBnB Clone - the console! This project is the 
 
 The AirBnB clone project is a multipart series that aims to guide us through the process of creating a complete web application. This first part focuses on the backend, particularly on creating a command-line interface to manage our application's data. The journey will cover:
 
-- The creation of a parent class (`BaseModel`) to handle initialization, serialization, and deserialization of future instances.
-- A simple flow of serialization/deserialization: Instance <-> Dictionary <-> JSON string <-> File.
-- Development of the classes used for AirBnB (User, State, City, Place, etc.) that inherit from `BaseModel`.
-- The implementation of the first abstracted storage engine of the project: File Storage.
-- Writing comprehensive unittests to ensure reliability and stability of our application.
+- The creation of a parent class `BaseModel` to handle initialization, serialization, and deserialization of instances to come.
+- A simple flow of serialization/deserialization: Instance -> Dictionary -> JSON string -> File.
+- Develop classes used for AirBnB (User, State, City, Place, etc.) that inherit from `BaseModel`.
+- The implementation of the storage engine of the project: File Storage.
+- Write comprehensive unittests for reliability and stability of my application.
 
 
 ## Features 🎉
@@ -28,9 +28,9 @@ The AirBnB clone project is a multipart series that aims to guide us through the
 
 ## Technologies Used 🛠️
 
-- **Language**: Python 3.8.5
-- **Style guide**: Pycodestyle (2.8.*)
-- **Storage**: JSON files
+-  Python 3.8.5
+-  Pycodestyle (2.8.*)
+-  JSON files
 
 ## Available Commands
 
